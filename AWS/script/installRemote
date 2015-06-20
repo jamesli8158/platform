@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DIR=$(cd "$(dirname "$BASH_SOURCE")"; pwd)
+
+ssh awsdev1 'bash -s' < $DIR/install
